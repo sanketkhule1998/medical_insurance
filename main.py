@@ -26,6 +26,7 @@ def get_insurance_charges():
         children = int(request.args.get("children"))
         smoker = request.args.get("smoker")
         region = request.args.get("region")
+        
 
         print("age, sex, bmi, children, smoker, region **********************\n",age, sex, bmi, children, smoker, region)
 
